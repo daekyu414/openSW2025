@@ -25,5 +25,23 @@
 /linux-6.17.6/tools/perf/tests/pe-file.exe.debug
 /linux-6.17.6/tools/testing/selftests/tc-testing/action-ebpf
 
+# Generated executables from the assignment exercises
+/OpenSW_Assignment/**/bin/
+/OpenSW_Assignment/week02/lab0/mysleep
+/OpenSW_Assignment/week11_syscall_file/01_mypid
+/OpenSW_Assignment/week11_syscall_file/02_myppod
+/OpenSW_Assignment/week11_syscall_file/03_args
+/OpenSW_Assignment/week11_syscall_file/04_open_files
+/OpenSW_Assignment/week11_syscall_file/05_stdin_stdout
+/OpenSW_Assignment/week11_syscall_file/06_mycp
+/OpenSW_Assignment/week12_syscall_process/01_fork
+/OpenSW_Assignment/week12_syscall_process/02_nowait
+/OpenSW_Assignment/week12_syscall_process/03_execve
+/OpenSW_Assignment/week12_syscall_process/04_mysystem
+/OpenSW_Assignment/week13_syscall_signal/Q4
+/OpenSW_Assignment/week13_syscall_signal/Q5
+/OpenSW_Assignment/week13_syscall_signal/Q6
+/OpenSW_Assignment/week13_syscall_signal/print_pid
+
 # Download metadata added by Windows
 *:Zone.Identifier

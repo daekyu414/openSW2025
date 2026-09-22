@@ -1,0 +1,58 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 14:03 ?        00:00:05 /sbin/init
+root           2       1  0 14:03 ?        00:00:00 /init
+root           8       2  0 14:03 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          45       1  0 14:03 ?        00:00:01 /usr/lib/systemd/systemd-journald
+root          92       1  0 14:03 ?        00:00:02 /usr/lib/systemd/systemd-udevd
+systemd+     107       1  0 14:03 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root         108      92  0 14:03 ?        00:00:00 (udev-worker)
+root         109      92  0 14:03 ?        00:00:00 (udev-worker)
+root         110      92  0 14:03 ?        00:00:00 (udev-worker)
+root         111      92  0 14:03 ?        00:00:00 (udev-worker)
+root         112      92  0 14:03 ?        00:00:00 (udev-worker)
+root         113      92  0 14:03 ?        00:00:00 (udev-worker)
+root         114      92  0 14:03 ?        00:00:00 (udev-worker)
+root         115      92  0 14:03 ?        00:00:00 (udev-worker)
+root         116      92  0 14:03 ?        00:00:00 (udev-worker)
+root         117      92  0 14:03 ?        00:00:00 (udev-worker)
+systemd+     118       1  0 14:03 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+root         120      92  0 14:03 ?        00:00:00 (udev-worker)
+root         122      92  0 14:03 ?        00:00:00 (udev-worker)
+root         123      92  0 14:03 ?        00:00:00 (udev-worker)
+root         124      92  0 14:03 ?        00:00:00 (udev-worker)
+root         126      92  0 14:03 ?        00:00:00 (udev-worker)
+root         127      92  0 14:03 ?        00:00:00 (udev-worker)
+root         130      92  0 14:03 ?        00:00:00 (udev-worker)
+root         133      92  0 14:03 ?        00:00:00 (udev-worker)
+root         134      92  0 14:03 ?        00:00:00 (udev-worker)
+root         135      92  0 14:03 ?        00:00:02 (udev-worker)
+root         136      92  0 14:03 ?        00:00:00 (udev-worker)
+root         137      92  0 14:03 ?        00:00:00 (udev-worker)
+root         138      92  0 14:03 ?        00:00:00 (udev-worker)
+root         140      92  0 14:03 ?        00:00:00 (udev-worker)
+root         141      92  0 14:03 ?        00:00:00 (udev-worker)
+root         142      92  0 14:03 ?        00:00:00 (udev-worker)
+root         143      92  0 14:03 ?        00:00:00 (udev-worker)
+root         144      92  0 14:03 ?        00:00:00 (udev-worker)
+root         145      92  0 14:03 ?        00:00:00 (udev-worker)
+root         146      92  0 14:03 ?        00:00:00 (udev-worker)
+root         147      92  0 14:03 ?        00:00:00 (udev-worker)
+root         148      92  0 14:03 ?        00:00:00 (udev-worker)
+root         149      92  0 14:03 ?        00:00:00 (udev-worker)
+root         150      92  0 14:03 ?        00:00:00 (udev-worker)
+root         151      92  0 14:03 ?        00:00:00 (udev-worker)
+root         166       1  0 14:03 ?        00:00:00 /usr/sbin/cron -f -P
+message+     167       1  0 14:03 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         187       1  0 14:03 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         224       1  0 14:03 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       229       1  0 14:03 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         232       1  0 14:03 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         239       1  0 14:03 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         376       2  0 14:03 ?        00:00:00 /init
+root         378     376  0 14:03 ?        00:00:00 /init
+daekyu       380     378  0 14:03 pts/0    00:00:00 -bash
+root         381       2  0 14:03 pts/1    00:00:00 /bin/login -f
+daekyu       472       1  0 14:03 ?        00:00:00 /usr/lib/systemd/systemd --user
+daekyu       474     472  0 14:03 ?        00:00:00 (sd-pam)
+daekyu       483     381  0 14:03 pts/1    00:00:00 -bash
+daekyu      5780     380 99 14:18 pts/0    00:00:00 ps -ef

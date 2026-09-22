@@ -1,0 +1,8 @@
+*.a
+lib/
+*.so
+obj/
+*.obj
+*.o
+*.out
+myapp
