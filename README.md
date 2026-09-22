@@ -27,6 +27,18 @@
 | [Lab 10](lab10_signal/) | 시그널 | 시그널 처리와 알람 |
 | [Lab 11](lab11_myshell/) | 미니 셸 | 입력 파싱, 내장 명령, 프로세스 실행 |
 
+## 📝 과제 저장소
+
+[`OpenSW_Assignment/`](OpenSW_Assignment/)에는 주차별 과제를 모았습니다. 별도 [OpenSW_Assignment 저장소](https://github.com/daekyu414/OpenSW_Assignment)를 **Git 서브모듈**로 연결했으므로 과제 저장소의 커밋 기록은 독립적으로 유지됩니다.
+
+새로 복제할 때는 서브모듈을 함께 받으세요.
+
+```bash
+git clone --recurse-submodules https://github.com/daekyu414/openSW2025.git
+```
+
+이미 복제했다면 저장소 루트에서 `git submodule update --init --recursive`를 실행하면 됩니다.
+
 ## 🚀 빠르게 실행하기
 
 GCC와 Make가 설치된 리눅스 환경에서 Lab 7 예제를 빌드할 수 있습니다.
