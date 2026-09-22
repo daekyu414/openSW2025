@@ -1,0 +1,4 @@
+Hello Linux World!
+Linux is just another Unix!
+I love Linux!
+I love soft link too!

@@ -1,0 +1,3 @@
+Hello Linux World!
+Linux is just another Unix!
+I love Linux!

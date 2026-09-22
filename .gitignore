@@ -1,5 +1,29 @@
-bin/
-obj/
-*.d
-*.obj
-*.o
+# Generated outputs from the lab exercises
+/lab5_gcc/bin/
+/lab5_gcc/obj/
+/lab5_gcc/lib/*.a
+/lab5_gcc/lib/*.so*
+/lab5_gcc/libfuncs.so*
+/lab6_make/bin/
+/lab6_make/obj/
+/lab6_make/lib/*.a
+/lab8_syscall/opentest
+/lab8_syscall/printpid
+/lab9_process/exectest
+/lab9_process/forkexec
+/lab9_process/forktest
+/lab9_process/race
+/lab9_process/systemtest
+/lab10_signal/sigactiontest
+/lab10_signal/sigactiontest2
+/lab10_signal/sigalarmtest
+/lab10_signal/sigtest
+/lab10_signal/sigtest_debug
+
+# Prebuilt executable test fixtures in the Linux source tree
+/linux-6.17.6/tools/perf/tests/pe-file.exe
+/linux-6.17.6/tools/perf/tests/pe-file.exe.debug
+/linux-6.17.6/tools/testing/selftests/tc-testing/action-ebpf
+
+# Download metadata added by Windows
+*:Zone.Identifier
